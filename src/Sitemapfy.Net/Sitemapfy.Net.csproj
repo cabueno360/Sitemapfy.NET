@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+	<PropertyGroup>
+		<PackageId>Sitemapfy.Net</PackageId>
+		<Version>1.0.0</Version>
+		<Authors>Carlos Bueno</Authors>
+		<RepositoryUrl>https://github.com/cabueno360/Sitemapfy.NET</RepositoryUrl>
+		<PackageTags>functional csharp .net dotnet c# sitemap aspnetcore web seo</PackageTags>
+		<Description>
+			Sitemapfy.Net is a powerful .NET 8 library that facilitates the creation, serialization, and serving of XML sitemaps in ASP.NET Core applications. This package leverages the capabilities of Functional.DotNet to provide a functional programming approach for handling sitemap generation and serialization.
+		</Description>
+		<PackageProjectUrl>https://github.com/cabueno360/Sitemapfy.NET</PackageProjectUrl>
+	</PropertyGroup>
+	<ItemGroup>
+		<FrameworkReference Include="Microsoft.AspNetCore.App" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <PackageReference Include="Functional.DotNet" Version="1.2.0" />
+	</ItemGroup>
+
+</Project>
